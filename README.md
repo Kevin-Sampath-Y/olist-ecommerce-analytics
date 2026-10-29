@@ -112,7 +112,7 @@ olist-ecommerce-analytics/
 ├── src/                      # pipeline code (database, analysis, charts, dashboard, report)
 ├── notebooks/                # executed walkthrough notebook
 ├── reports/                  # dashboard.html, insights.md, figures/
-├── docs/                     # replication, Power BI and resume guides
+├── index.html                # landing page for the GitHub Pages dashboard
 ├── tests/                    # pytest suite
 ├── run_pipeline.py           # run everything
 └── requirements.txt
@@ -163,6 +163,6 @@ Outputs: `reports/dashboard.html`, `reports/insights.md`, `reports/figures/*.png
 
 ## Author
 
-**Kevin** · [LinkedIn](https://www.linkedin.com/in/kevin-sampath-y) · [GitHub](https://github.com/Kevin-Sampath-Y)
+**Kevin Sampath Y** · [LinkedIn](https://www.linkedin.com/in/kevin-sampath-y) · [GitHub](https://github.com/Kevin-Sampath-Y)
 
 Data: Olist, released under CC BY-NC-SA 4.0. Code: MIT.
