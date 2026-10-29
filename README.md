@@ -5,7 +5,7 @@ End-to-end data analysis of a Brazilian online marketplace: from raw relational 
 **Tools:** SQL (SQLite) · Python (pandas, SciPy, scikit-learn) · Matplotlib / Seaborn / Plotly · Jupyter · pytest · Power BI / Tableau-ready exports
 
 ![Monthly revenue](reports/figures/01_monthly_revenue.png)
-![Dashboard](reports/figures/dashboard_overview1.png)
+![Dashboard](reports/figures/dashboard_overview1.PNG)
 ---
 
 ## Business problem
