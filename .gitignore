@@ -1,0 +1,14 @@
+# Data (large / licensed - download from Kaggle, don't commit)
+data/raw/*.csv
+data/olist.db
+data/processed/bi/
+data/processed/sql_customer_rfm.csv
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+# OS / editor
+.DS_Store
+.vscode/

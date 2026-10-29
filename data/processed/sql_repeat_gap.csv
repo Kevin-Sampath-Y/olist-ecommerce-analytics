@@ -1,0 +1,6 @@
+gap_bucket,customers,avg_gap_days
+0-1 day,896,0.0
+1-30 days,571,13.2
+31-90 days,504,56.1
+91-180 days,419,131.3
+180+ days,498,286.4

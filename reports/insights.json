@@ -1,0 +1,141 @@
+{
+  "synthetic": false,
+  "kpi": {
+    "total_orders": 99441.0,
+    "valid_orders": 98199.0,
+    "unique_customers": 94983.0,
+    "revenue": 13494400.74,
+    "avg_order_value": 137.42,
+    "avg_review_score": 4.12,
+    "late_delivery_pct": 8.11,
+    "avg_delivery_days": 12.56,
+    "repeat_customer_pct": 3.04
+  },
+  "growth": {
+    "yoy_last3_pct": 73.8,
+    "peak_month": "2017-11",
+    "peak_revenue": 1003862.14,
+    "spike_month": "2017-11",
+    "spike_mom_pct": 52.1
+  },
+  "categories": {
+    "n_categories": 74,
+    "n_class_a": 13,
+    "top": "health_beauty",
+    "top_share_pct": 9.31
+  },
+  "geography": {
+    "top_state": "SP",
+    "top_state_share_pct": 38.3,
+    "slowest_state": "AL",
+    "slowest_state_late_pct": 23.9,
+    "highest_freight_state": "MA",
+    "highest_freight_pct": 26.3
+  },
+  "payments": {
+    "credit_card_value_pct": 78.5,
+    "avg_installments_card": 3.5
+  },
+  "retention": {
+    "month1_retention_pct": 0.45,
+    "repeat_customer_pct": 3.04,
+    "repeat_revenue_pct_last6m": 3.1,
+    "median_gap_bucket": "0-1 day"
+  },
+  "rfm": {
+    "at_risk_customer_pct": 14.8,
+    "at_risk_revenue_pct": 28.9,
+    "champions_customer_pct": 1.3,
+    "champions_revenue_pct": 2.5
+  },
+  "delivery": {
+    "on_time_avg_review": 4.29,
+    "very_late_avg_review": 1.72,
+    "very_late_pct_1_2_star": 78.4,
+    "very_late_bucket": "4. 15+ days late"
+  },
+  "sellers": {
+    "n_scored": 627,
+    "flags": {
+      "Healthy": 487,
+      "Watch: late deliveries": 80,
+      "Action: low reviews + late": 31,
+      "Watch: low reviews": 29
+    }
+  },
+  "test": {
+    "n_late": 7661,
+    "n_ontime": 88171,
+    "mean_late": 2.57,
+    "mean_ontime": 4.29,
+    "mean_diff": -1.73,
+    "ci95_low": -1.76,
+    "ci95_high": -1.69,
+    "p_value": 0.0,
+    "rank_biserial": -0.554
+  },
+  "model": {
+    "auc": 0.732,
+    "bad_review_rate_pct": 12.8,
+    "n": 95824,
+    "odds_ratios": [
+      {
+        "feature": "delivery_days",
+        "label": "Total delivery time (days)",
+        "odds_ratio_per_sd": 1.822
+      },
+      {
+        "feature": "n_items",
+        "label": "Items in order",
+        "odds_ratio_per_sd": 1.557
+      },
+      {
+        "feature": "delay_days",
+        "label": "Days late vs promised date",
+        "odds_ratio_per_sd": 1.318
+      },
+      {
+        "feature": "log_value",
+        "label": "Order value (log)",
+        "odds_ratio_per_sd": 0.991
+      },
+      {
+        "feature": "freight_ratio",
+        "label": "Freight as % of item value",
+        "odds_ratio_per_sd": 0.966
+      }
+    ]
+  },
+  "cross_checks": [
+    {
+      "check": "Revenue (SQL vs pandas)",
+      "sql": 13494400.74,
+      "pandas": 13494400.74,
+      "passed": true
+    },
+    {
+      "check": "Valid orders",
+      "sql": 98199,
+      "pandas": 98199,
+      "passed": true
+    },
+    {
+      "check": "Unique customers",
+      "sql": 94983,
+      "pandas": 94983,
+      "passed": true
+    },
+    {
+      "check": "Late delivery %",
+      "sql": 8.11,
+      "pandas": 8.11,
+      "passed": true
+    },
+    {
+      "check": "RFM customers (view vs unique customers)",
+      "sql": 94983,
+      "pandas": 94983,
+      "passed": true
+    }
+  ]
+}

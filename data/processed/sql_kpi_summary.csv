@@ -1,0 +1,2 @@
+total_orders,valid_orders,unique_customers,revenue,avg_order_value,avg_review_score,late_delivery_pct,avg_delivery_days,repeat_customer_pct
+99441,98199,94983,13494400.74,137.42,4.12,8.11,12.56,3.04
