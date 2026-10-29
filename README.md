@@ -4,6 +4,8 @@ End-to-end data analysis of a Brazilian online marketplace: from raw relational 
 
 **Tools:** SQL (SQLite) · Python (pandas, SciPy, scikit-learn) · Matplotlib / Seaborn / Plotly · Jupyter · pytest · Power BI / Tableau-ready exports
 
+**Live dashboard:** https://kevin-sampath-y.github.io/olist-ecommerce-analytics/
+
 ![Monthly revenue](reports/figures/01_monthly_revenue.png)
 ![Dashboard](reports/figures/dashboard_overview1.PNG)
 ---
