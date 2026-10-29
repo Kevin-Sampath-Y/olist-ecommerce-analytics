@@ -5,7 +5,7 @@ End-to-end data analysis of a Brazilian online marketplace: from raw relational 
 **Tools:** SQL (SQLite) · Python (pandas, SciPy, scikit-learn) · Matplotlib / Seaborn / Plotly · Jupyter · pytest · Power BI / Tableau-ready exports
 
 ![Monthly revenue](reports/figures/01_monthly_revenue.png)
-
+![Dashboard](reports/figures/dashboard_overview1.png)
 ---
 
 ## Business problem
@@ -160,6 +160,6 @@ Outputs: `reports/dashboard.html`, `reports/insights.md`, `reports/figures/*.png
 
 ## Author
 
-**Kevin** · [LinkedIn](https://www.linkedin.com/in/<your-handle>) · [GitHub](https://github.com/<your-username>)
+**Kevin** · [LinkedIn](https://www.linkedin.com/in/kevin-sampath-y) · [GitHub](https://github.com/Kevin-Sampath-Y)
 
 Data: Olist, released under CC BY-NC-SA 4.0. Code: MIT.
